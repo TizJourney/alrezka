@@ -4,7 +4,7 @@ import React from 'react';
 
 import classnames from 'classnames';
 
-export default function Promo(props) {
+export default function Contacts(props) {
     return (
         <div className={classnames('contacts', props.className)}>
             <p className='contacts__item'>E-mail: <a className='contacts__link' href='mailto:zakaz@alrezka.ru'>zakaz@alrezka.ru</a></p>

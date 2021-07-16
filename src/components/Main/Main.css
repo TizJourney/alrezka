@@ -24,6 +24,25 @@
   opacity: 0.2;
 }
 
+.main_equipment {
+  background-image: url('../../images/building-2.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+}
+
+.main_equipment::after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: black;
+  opacity: 0.2;
+}
+
 .main_contacts {
   background-color: #003366;
 }
@@ -46,6 +65,11 @@
   font-weight: 500;
   font-size: 80px;
   color: white;
+}
+
+
+.main-content__title_black {
+  color: black;
 }
 
 .main_nav-tab {

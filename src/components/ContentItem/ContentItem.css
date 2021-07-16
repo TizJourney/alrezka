@@ -1,0 +1,21 @@
+.content-item_white {
+    color: white;
+}
+
+.content-item__text {    
+    margin: 15px 0 15px 0;
+    padding: 0;
+    font-family: Inter, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.16;
+    letter-spacing: -0.04em;
+}
+
+.content-item__title {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.16;
+}
