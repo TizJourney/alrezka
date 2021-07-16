@@ -1,0 +1,25 @@
+.nav-tab {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 4;
+    opacity: 0.7;
+}
+
+.nav-tab__link {
+    box-sizing: border-box;
+    min-width: 96px;
+    margin: 5px;
+    font-family: Inter, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 17px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+  
