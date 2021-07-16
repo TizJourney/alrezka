@@ -36,10 +36,7 @@ export default function Header(props) {
       <header className={classnames(props.className, 'header')}>
         <Link to='/' className={'header__link header__link_main'}><img src={main_logo} alt='лого главной страницы' className='header__main-logo' /></Link>
         <nav className='header__links-block header__links-block_auth'>
-          <Link to='/' className={classnames('header__link header__link_saved-movies')}>Раз</Link>
-          <Link to='/' className={classnames('header__link header__link_saved-movies')}>Два</Link>
-          <Link to='/' className={classnames('header__link header__link_saved-movies')}>Три</Link>
-          <Link to='/' className={classnames('header__link header__link_movies')}>Фильмы</Link>
+          <Link to='tel:+7(916)000-00-00' className={classnames('header__link')}>+7(916)000-00-00</Link>
         </nav>
         <button className='header__burger' onClick={setNavigationOpen} />
       </header>
