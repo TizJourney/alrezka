@@ -8,7 +8,6 @@ export default function Promo(props) {
     return (
         <div className={classnames('contacts', props.className)}>
             <p className='contacts__item'>E-mail: <a className='contacts__link' href='mailto:zakaz@alrezka.ru'>zakaz@alrezka.ru</a></p>
-            <p className='contacts__item'>Адрес: 117452, г. Москва, Балаклавский проспект, 28Б, стр.1</p>
             <ul className='contacts__list'>
                 <h2 className='contacts__list-item contacts__list-item_title'>Реквизиты организации:</h2>
                 <li className='contacts__list-item'>ООО «Алрезка»</li>
