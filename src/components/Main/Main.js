@@ -32,11 +32,13 @@ function MainTitle(props) {
 
 export default function Main(props) {
   return (
-    <div className="main-content main-content__promo">
-      <MainPage className='main-content__content'>
-        <Header className='main-conetent__header' />
-        <Promo className='main-content__promo'/>
-      </MainPage>
+    <div>
+      <div className="main main_promo">
+        <MainPage className='main_content main-page main-page_promo'>
+          <Header className='main-page__item main-page__item_header' />
+          <Promo className='main-page__item main-page__item_promo'/>
+        </MainPage>
+      </div>
 
       {/* <MainPage id='project'>
         <MainTitle  title='О проекте' />

@@ -1,19 +1,18 @@
-.main-content {
+.main {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
-
-.main-content__promo {
+.main_promo {
   background-image: url('../../images/building-1.jpg');
   background-size:cover;
   background-repeat: no-repeat;
-  position: relative;
-  z-index: 1;
   height: 100vh;
 }
 
-.main-content__promo::after {
+.main_promo::after {
   content: '';
   position: absolute;
   z-index: 2;
@@ -25,49 +24,19 @@
   opacity: 0.2;
 }
 
-.main-content__page {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-.main-content__page {
+.main-page {
   width: min(1280px, 100%);
   box-sizing: border-box;
-  padding: 0 70px 10px 70px;
+  display: flex;
+  position: relative;
+  z-index: 3;
 }
 
-.main-content__page_dark {
-  background-color: #073042;
-  padding: 0;
-  color: white;
-}
-
-.main-content__page_grey {
-  background-color: #F5F5F5;
-}
-
-.main-content__page_promo {
-  min-height: 664px;
+.main-page_promo {
   display: grid;
-  grid-template-rows: min-content 1fr min-content;
+  grid-template-rows: 200px 1fr;
+  min-height: 100%;
 }
 
-.main-content__student-content {
-  margin-top: 66px;
-}
 
-.main-content__title {
-  border-bottom: 1px solid black;
-  padding-bottom: 23px;
-  margin: 110px 0 0 0;
-
-  font-family: Inter, Helvetica, Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  letter-spacing: -0.04em;
-}
 
