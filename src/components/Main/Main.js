@@ -11,7 +11,7 @@ import Promo from '../Promo/Promo';
 // import AboutProject from '../AboutProject/AboutProject';
 // import Tech from '../Tech/Tech';
 // import AboutMe from '../AboutMe/AboutMe';
-// import Portfolio from '../Portfolio/Portfolio';
+import Contacts from '../Contacts/Contacs';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 
@@ -40,22 +40,12 @@ export default function Main(props) {
         </MainPage>
       </div>
 
-      {/* <MainPage id='project'>
-        <MainTitle  title='О проекте' />
-        <AboutProject className='main-content__about-project' />
-      </MainPage>
-
-      <MainPage id='tech' className='main-content__page_grey'>
-        <MainTitle title='Технологии' className='main-content__title_tech' />
-        <Tech className='main-content__tech' />
-      </MainPage>
-
-      <MainPage id='me' >
-        <MainTitle title='Студент' />
-        <AboutMe className='main-content__student-content' />
-        <Portfolio className='main-content__portfolio' />
-      </MainPage> */}
-
+      <div className="main main_contacts">
+        <MainPage className='main_content main-page main-page_contacts'>
+          <MainTitle className='main-page__item main-page__item_service' title='Контакты' />
+          <Contacts />
+        </MainPage>
+      </div>      
       <Footer className='main-content__page main-content__footer' />
     </div>
   )
