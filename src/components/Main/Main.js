@@ -13,8 +13,6 @@ import Promo from '../Promo/Promo';
 // import AboutMe from '../AboutMe/AboutMe';
 import Contacts from '../Contacts/Contacs';
 import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
-
 
 function MainPage(props) {
   return (
@@ -46,7 +44,6 @@ export default function Main(props) {
           <Contacts />
         </MainPage>
       </div>      
-      <Footer className='main-content__page main-content__footer' />
     </div>
   )
 }
