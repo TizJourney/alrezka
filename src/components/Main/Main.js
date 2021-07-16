@@ -32,8 +32,8 @@ function MainTitle(props) {
 
 export default function Main(props) {
   return (
-    <div className="main-content">
-      <MainPage className='main-content__page_promo'>
+    <div className="main-content main-content__promo">
+      <MainPage className='main-content__content'>
         <Header className='main-conetent__header' />
         <Promo className='main-content__promo'/>
       </MainPage>
