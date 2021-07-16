@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.072461f2.chunk.css",
-    "main.js": "/static/js/main.0e5cc9bb.chunk.js",
-    "main.js.map": "/static/js/main.0e5cc9bb.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.55ccff9b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.55ccff9b.js.map",
-    "static/js/2.f559b9b0.chunk.js": "/static/js/2.f559b9b0.chunk.js",
-    "static/js/2.f559b9b0.chunk.js.map": "/static/js/2.f559b9b0.chunk.js.map",
-    "static/js/3.f4ff77c5.chunk.js": "/static/js/3.f4ff77c5.chunk.js",
-    "static/js/3.f4ff77c5.chunk.js.map": "/static/js/3.f4ff77c5.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.072461f2.chunk.css.map": "/static/css/main.072461f2.chunk.css.map",
-    "static/js/2.f559b9b0.chunk.js.LICENSE.txt": "/static/js/2.f559b9b0.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/Inter-Regular.fc49d131.woff",
-    "static/media/alrezka-logo.808dbb55.png": "/static/media/alrezka-logo.808dbb55.png",
-    "static/media/Main.css": "/static/media/building-2.32c3270e.jpg",
-    "static/media/Header.css": "/static/media/burger-icon.c56f0df6.svg",
-    "static/media/Navigation.css": "/static/media/close-button.b00d0475.svg"
+    "main.css": "/alrezka/static/css/main.aab5b866.chunk.css",
+    "main.js": "/alrezka/static/js/main.0e5cc9bb.chunk.js",
+    "main.js.map": "/alrezka/static/js/main.0e5cc9bb.chunk.js.map",
+    "runtime-main.js": "/alrezka/static/js/runtime-main.82cf8d5d.js",
+    "runtime-main.js.map": "/alrezka/static/js/runtime-main.82cf8d5d.js.map",
+    "static/js/2.f559b9b0.chunk.js": "/alrezka/static/js/2.f559b9b0.chunk.js",
+    "static/js/2.f559b9b0.chunk.js.map": "/alrezka/static/js/2.f559b9b0.chunk.js.map",
+    "static/js/3.f4ff77c5.chunk.js": "/alrezka/static/js/3.f4ff77c5.chunk.js",
+    "static/js/3.f4ff77c5.chunk.js.map": "/alrezka/static/js/3.f4ff77c5.chunk.js.map",
+    "index.html": "/alrezka/index.html",
+    "static/css/main.aab5b866.chunk.css.map": "/alrezka/static/css/main.aab5b866.chunk.css.map",
+    "static/js/2.f559b9b0.chunk.js.LICENSE.txt": "/alrezka/static/js/2.f559b9b0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/alrezka/static/media/Inter-Regular.fc49d131.woff",
+    "static/media/alrezka-logo.808dbb55.png": "/alrezka/static/media/alrezka-logo.808dbb55.png",
+    "static/media/Main.css": "/alrezka/static/media/building-2.32c3270e.jpg",
+    "static/media/Header.css": "/alrezka/static/media/burger-icon.c56f0df6.svg",
+    "static/media/Navigation.css": "/alrezka/static/media/close-button.b00d0475.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.55ccff9b.js",
+    "static/js/runtime-main.82cf8d5d.js",
     "static/js/2.f559b9b0.chunk.js",
-    "static/css/main.072461f2.chunk.css",
+    "static/css/main.aab5b866.chunk.css",
     "static/js/main.0e5cc9bb.chunk.js"
   ]
 }
