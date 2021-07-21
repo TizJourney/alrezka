@@ -9,8 +9,8 @@ import { CONTACTS } from '../../utils/context'
 export default function Contacts(props) {
     return (
         <div className={classnames('contacts', props.className)}>
-            <p className='contacts__item'>Телефон: <a className='contacts__link'href={`tel:${CONTACTS.telRaw}`}>{CONTACTS.tel}</a></p>
-            <p className='contacts__item'>E-mail: <a className='contacts__link' href={`mailto:${CONTACTS.email}`}>{CONTACTS.email}</a></p>
+            <a className='contacts__item contacts__item_link' href={`tel:${CONTACTS.telRaw}`}>Телефон: {CONTACTS.tel}</a>
+            <a className='contacts__item contacts__item_link' href={`mailto:${CONTACTS.email}`}>E-mail: {CONTACTS.email}</a>
             <ul className='contacts__list'>
                 <h2 className='contacts__list-item contacts__list-item_title'>Реквизиты организации:</h2>
                 <li className='contacts__list-item'>ООО «Алрезка»</li>
