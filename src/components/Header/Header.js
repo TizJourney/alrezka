@@ -5,6 +5,8 @@ import './Header.css';
 import React, { useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 
+import { CONTACTS } from '../../utils/context'
+
 import Navigation from '../Navigation/Navigation.js';
 
 
@@ -32,7 +34,7 @@ export default function Header(props) {
     <header className={classnames(props.className, 'header')}>
       <nav className='header__links-block header__contacts'>
         <p className='header__text'>Санкт-Петербург</p>
-        <Link to='tel:+7(916)000-00-00' className='header__link'>+7(916)000-00-00</Link>
+        <a href={`tel:${CONTACTS.telRaw}`} className='header__link'>{CONTACTS.tel}</a>
       </nav>
       <button className='header__burger' onClick={setNavigationOpen} />
       <Navigation isOpen={isNavigationOpen} handleClose={handleNavigationClose} handleClick={navigateToRoute} />
