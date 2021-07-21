@@ -10,6 +10,7 @@ import Header from '../Header/Header';
 import NavTab from '../NavTab/NavTab';
 import Contacts from '../Contacts/Contacts';
 import ContentItem from '../ContentItem/ContentItem';
+import WindowWidthSettings from '../WindowWidthSettings/WindowWidthSettings';
 
 
 function MainPage(props) {
@@ -27,6 +28,9 @@ function MainTitle(props) {
 }
 
 export default function Main(props) {
+
+  const windowWidth = WindowWidthSettings();
+
   return (
     <div>
       <div className='main main_promo'>
@@ -60,7 +64,7 @@ export default function Main(props) {
           <Contacts />
         </MainPage>
       </div>
-      <NavTab className='main_nav-tab' />
+      { windowWidth.showNavBar &&  <NavTab className='main__nav-tab' /> }
     </div>
   )
 }
