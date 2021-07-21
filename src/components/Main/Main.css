@@ -82,3 +82,34 @@
   background-color: black;
   width: 200px;
 }
+
+@media screen and (max-width: 1279px) {
+  .main-page {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .main-page {
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    grid-template-rows: 100px 1fr;
+  }
+
+  .main-content__title {
+    font-size: 60px;
+  }
+}
+
+  @media screen and (max-width: 767px) {
+    .main-page {
+      padding-left: 10px;
+      padding-right: 10px;
+      grid-template-rows: 70px 1fr;
+    }
+
+    .main-content__title {
+      font-size: 36px;
+    }
+}    

@@ -43,7 +43,6 @@
     font-family: Inter, Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
     line-height: 1.16;
     letter-spacing: -0.04em;
     color: white;
@@ -55,3 +54,42 @@
     font-size: 26px;
     line-height: 1.16;
 }
+
+
+@media screen and (max-width: 1279px) {
+    .contacts {
+        margin-bottom: 50px;
+    }
+
+    .contacts__item {
+        font-size: 18px;
+    }
+
+    .contacts__list-item_title {
+        font-size: 18px;
+    }
+
+    .contacts__item_link {
+        font-size: 18px;
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .contacts {
+        margin-bottom: 20px;
+    }
+
+    .contacts__item {
+        font-size: 14px;
+    }
+
+    .contacts__list-item_title {
+        font-size: 14px;
+    }
+    
+    .contacts__list-item_link {
+        font-size: 14px;
+    }    
+}    
