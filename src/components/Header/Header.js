@@ -36,7 +36,7 @@ export default function Header(props) {
       <p className='header__text'>Санкт-Петербург</p>      
       <nav className='header__links-block header__contacts'>
         <a className='header__link' href={`tel:+${CONTACTS.telRaw}`} >{CONTACTS.tel}</a>
-        <a className='header__link' href={`https://wa.me/${CONTACTS.telRaw}`} ><img className='header__whatsapp-icon' src={whatsappIcon} alt='whatsApp'/></a>
+        <a className='header__link'  target='_blank' rel='noreferrer' href={`https://wa.me/${CONTACTS.telRaw}`} ><img className='header__whatsapp-icon' src={whatsappIcon} alt='whatsApp'/></a>
       </nav>
       <button className='header__burger' onClick={setNavigationOpen} />
       <Navigation isOpen={isNavigationOpen} handleClose={handleNavigationClose} handleClick={navigateToRoute} />
