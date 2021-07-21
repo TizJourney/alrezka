@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/alrezka/static/css/main.4ef79bd7.chunk.css",
-    "main.js": "/alrezka/static/js/main.9addcc45.chunk.js",
-    "main.js.map": "/alrezka/static/js/main.9addcc45.chunk.js.map",
+    "main.css": "/alrezka/static/css/main.a106a06c.chunk.css",
+    "main.js": "/alrezka/static/js/main.6aebc46e.chunk.js",
+    "main.js.map": "/alrezka/static/js/main.6aebc46e.chunk.js.map",
     "runtime-main.js": "/alrezka/static/js/runtime-main.88cbeee4.js",
     "runtime-main.js.map": "/alrezka/static/js/runtime-main.88cbeee4.js.map",
-    "static/js/2.681b85de.chunk.js": "/alrezka/static/js/2.681b85de.chunk.js",
-    "static/js/2.681b85de.chunk.js.map": "/alrezka/static/js/2.681b85de.chunk.js.map",
+    "static/js/2.d8c5d6aa.chunk.js": "/alrezka/static/js/2.d8c5d6aa.chunk.js",
+    "static/js/2.d8c5d6aa.chunk.js.map": "/alrezka/static/js/2.d8c5d6aa.chunk.js.map",
     "static/js/3.928a8fe1.chunk.js": "/alrezka/static/js/3.928a8fe1.chunk.js",
     "static/js/3.928a8fe1.chunk.js.map": "/alrezka/static/js/3.928a8fe1.chunk.js.map",
     "index.html": "/alrezka/index.html",
-    "static/css/main.4ef79bd7.chunk.css.map": "/alrezka/static/css/main.4ef79bd7.chunk.css.map",
-    "static/js/2.681b85de.chunk.js.LICENSE.txt": "/alrezka/static/js/2.681b85de.chunk.js.LICENSE.txt",
+    "static/css/main.a106a06c.chunk.css.map": "/alrezka/static/css/main.a106a06c.chunk.css.map",
+    "static/js/2.d8c5d6aa.chunk.js.LICENSE.txt": "/alrezka/static/js/2.d8c5d6aa.chunk.js.LICENSE.txt",
+    "static/media/Main.css": "/alrezka/static/media/9.42abbb90.jpg",
     "static/media/index.css": "/alrezka/static/media/Inter-Regular.fc49d131.woff",
-    "static/media/alrezka-logo.808dbb55.png": "/alrezka/static/media/alrezka-logo.808dbb55.png",
-    "static/media/Main.css": "/alrezka/static/media/building-2.32c3270e.jpg",
     "static/media/Header.css": "/alrezka/static/media/burger-icon.c56f0df6.svg",
-    "static/media/Navigation.css": "/alrezka/static/media/close-button.b00d0475.svg"
+    "static/media/Navigation.css": "/alrezka/static/media/close-button.b00d0475.svg",
+    "static/media/whatsapp-icon-logo.973a7e77.svg": "/alrezka/static/media/whatsapp-icon-logo.973a7e77.svg",
+    "static/media/white-logo.38cc6fde.png": "/alrezka/static/media/white-logo.38cc6fde.png"
   },
   "entrypoints": [
     "static/js/runtime-main.88cbeee4.js",
-    "static/js/2.681b85de.chunk.js",
-    "static/css/main.4ef79bd7.chunk.css",
-    "static/js/main.9addcc45.chunk.js"
+    "static/js/2.d8c5d6aa.chunk.js",
+    "static/css/main.a106a06c.chunk.css",
+    "static/js/main.6aebc46e.chunk.js"
   ]
 }
