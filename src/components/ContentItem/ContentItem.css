@@ -33,9 +33,11 @@
 @media screen and (max-width: 767px) {
     .content-item__text {
         font-size: 12px;
+        line-height: 1.4;
     }
     
     .content-item__title {
         font-size: 20px;
+        line-height: 1.4;
     }
 }
