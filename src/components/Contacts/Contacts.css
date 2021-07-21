@@ -20,6 +20,7 @@
 }
 
 .contacts__link {
+    text-decoration: none;
     font-family: Inter, Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
