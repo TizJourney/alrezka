@@ -26,3 +26,7 @@
 .nav-tab__link_title   {
     font-weight: 800;
 }
+
+.nav-tab__logo {
+    width: 100%;
+}
