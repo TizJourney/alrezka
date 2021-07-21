@@ -11,8 +11,6 @@ import { CONTACTS } from '../../utils/context'
 
 import Navigation from '../Navigation/Navigation.js';
 
-
-
 export default function Header(props) {
   const history = useHistory();
 
