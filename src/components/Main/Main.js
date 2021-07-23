@@ -36,9 +36,11 @@ export default function Main(props) {
   return (
     <div>
       <div className='main main_promo'>
-        <Header className='main-page__item main-page__item_header' />
-        { !windowWidth.showNavBar &&  <img className='main__title-image' src={greyLogo} alt='Лого Алрезки' /> }                    
-        <Promo className='main-page__item main-page__item_promo' />
+        <MainPage className='main_content main-page main-page_promo'>
+          <Header className='main-page__item main-page__item_header' />
+          { !windowWidth.showNavBar &&  <img className='main__title-image' src={greyLogo} alt='Лого Алрезки' /> }                    
+          <Promo className='main-page__item main-page__item_promo' />
+        </MainPage>
       </div>
 
       <div className='main main_service' id='service'>
