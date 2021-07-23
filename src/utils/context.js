@@ -7,3 +7,8 @@ export const CONTACTS = {
     telRaw: tel.replace(/[^0-9]/g, ''),
     email: 'zakaz@alrezka.ru'
 }
+
+export const FEEDBACK = {
+    yandex: 'https://yandex.ru/maps/-/CCUiUJAOGB',
+    google: 'https://goo.gl/maps/Gxs8xPcCNSift8Di8',
+}

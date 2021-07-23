@@ -24,7 +24,7 @@
     font-family: Inter, Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 1.16;
     color: white;
 }
@@ -38,7 +38,7 @@
 }
 
 .contacts__list-item {
-    margin: 10px 0 0 0;
+    margin: 10px 40px 0 40px;
     padding: 0;
     font-family: Inter, Helvetica, Arial, sans-serif;
     font-style: normal;
@@ -55,6 +55,46 @@
     line-height: 1.16;
 }
 
+.contacts__feedback-title {
+    margin: 30px 0 0 0;
+    padding: 0;
+    font-family: Inter, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 1.16;
+    line-height: 1.16;
+    letter-spacing: -0.04em;
+    color: white;
+}
+
+.contacts__feedback-block {
+    margin: 20px 0 0 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 60px;
+}
+
+.contacts__feedback-link {
+    margin: 0;
+    padding: 10px;
+    font-family: Inter, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.16;
+    letter-spacing: -0.04em;
+    color: white;
+    border: 2px solid white;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.contacts__feedback-image {
+    width: 100px;
+    height: auto;
+}
 
 @media screen and (max-width: 1279px) {
     .contacts {
@@ -65,15 +105,13 @@
         font-size: 18px;
     }
 
-    .contacts__list-item_title {
-        font-size: 18px;
+    .contacts__feedback-title {
+        font-size: 24px;
     }
 
     .contacts__item_link {
         font-size: 18px;
     }
-
-
 }
 
 @media screen and (max-width: 767px) {
@@ -85,11 +123,17 @@
         font-size: 14px;
     }
 
-    .contacts__list-item_title {
+    .contacts__feedback-title {
+        font-size: 24px;
+    }
+
+    .contacts__list-item_link {
         font-size: 14px;
     }
     
-    .contacts__list-item_link {
-        font-size: 14px;
-    }    
+    .contacts__feedback-block {
+        grid-template-columns: none;
+        grid-template-rows: auto auto;
+        gap: 20px;
+    }
 }    
