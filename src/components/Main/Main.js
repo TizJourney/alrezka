@@ -15,6 +15,7 @@ import WindowWidthSettings from '../WindowWidthSettings/WindowWidthSettings';
 import greyLogo from '../../images/white-logo.png';
 
 
+
 function MainPage(props) {
   return (
     <div id={props.id} className={classnames('main-content__page', props.className)}>
@@ -68,6 +69,7 @@ export default function Main(props) {
         </MainPage>
       </div>
       { windowWidth.showNavBar &&  <NavTab className='main__nav-tab' /> }
+      { !windowWidth.showNavBar &&  <button className='main__nav-burger' />}
     </div>
   )
 }

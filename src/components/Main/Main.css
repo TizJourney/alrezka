@@ -95,6 +95,22 @@
   width: min(400px, 80%);
 }
 
+.main__nav-burger {
+  position: fixed;
+  padding: 5px;
+  right: 5px;
+  top: 10px;
+  background-color: grey;
+  width: 30px;
+  height: 30px;
+  background-image: url('../../images/burger-icon.svg');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 4;
+  border: none;
+  border-radius: 50%;
+}
 
 @media screen and (max-width: 1279px) {
   .main-page {
