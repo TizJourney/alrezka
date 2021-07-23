@@ -2,6 +2,9 @@ import './Navigation.css';
 
 import React from 'react';
 
+import imageLogo from '../../images/white-logo.png';
+import { HashLink } from 'react-router-hash-link';
+
 export default function Navigation(props) {
 
   return (
@@ -10,9 +13,12 @@ export default function Navigation(props) {
       <div className='navigation__internal-content' >
         <button className='navigation__close-button' onClick={() => {props.handleClose()} } />
         <nav className='navigation__links-block header__links-block_auth'>
-          <button className='navigation__link navigation__link_main' onClick={() => {props.handleClick('/')} }>Главная</button>
-          <button className='navigation__link navigation__link_movies' onClick={() => {props.handleClick('/')} }> Раз </button>
-          <button className='navigation__link hnavigation__link_saved-movies' onClick={() => {props.handleClick('/')} }> Два </button>
+          <HashLink smooth to='#top' className='nav-tab__link nav-tab__link_title' onClick={() => {props.handleClick()}} >
+            <img className='navigation__logo' src={imageLogo} alt='Лого Алрезки' />
+          </HashLink>
+          <HashLink smooth to='#service' className='nav-tab__link nav-tab__link_title' onClick={() => {props.handleClick()}} >Услуги</HashLink>
+          <HashLink smooth to='#equipment' className='nav-tab__link nav-tab__link_title' onClick={() => {props.handleClick()}} >Оборудование</HashLink>
+          <HashLink smooth to='#contacts' className='nav-tab__link nav-tab__link_title' onClick={() => {props.handleClick()}} >Контакты</HashLink>
         </nav>
       </div>
     </div >

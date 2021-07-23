@@ -3,18 +3,18 @@ import classnames from 'classnames';
 
 import './Main.css';
 
-import React from 'react';
+import React, { useState } from 'react';
 
 import Promo from '../Promo/Promo';
 import Header from '../Header/Header';
 import NavTab from '../NavTab/NavTab';
 import Contacts from '../Contacts/Contacts';
 import ContentItem from '../ContentItem/ContentItem';
+import Navigation from '../Navigation/Navigation';
+
 import WindowWidthSettings from '../WindowWidthSettings/WindowWidthSettings';
 
-import greyLogo from '../../images/white-logo.png';
-
-
+import imageLogo from '../../images/white-logo.png';
 
 function MainPage(props) {
   return (
@@ -31,15 +31,28 @@ function MainTitle(props) {
 }
 
 export default function Main(props) {
-
   const windowWidth = WindowWidthSettings();
+
+  const [ isNavigationOpened, setIsNavigationOpened ] = useState(false);
+
+  const handleNavButton = () => {
+    setIsNavigationOpened(true);
+  }
+
+  const handleNavigationClose = () => {
+    setIsNavigationOpened(false);
+  }
+
+  const handleNavigationClick = (url) => {
+    setIsNavigationOpened(false);
+  }
 
   return (
     <div>
       <div className='main main_promo'>
         <MainPage className='main_content main-page main-page_promo'>
           <Header className='main-page__item main-page__item_header' />
-          { !windowWidth.showNavBar &&  <img className='main__title-image' src={greyLogo} alt='Лого Алрезки' /> }                    
+          { !windowWidth.showNavBar &&  <img className='main__title-image' src={imageLogo} alt='Лого Алрезки' /> }                    
           <Promo className='main-page__item main-page__item_promo' />
         </MainPage>
       </div>
@@ -69,7 +82,13 @@ export default function Main(props) {
         </MainPage>
       </div>
       { windowWidth.showNavBar &&  <NavTab className='main__nav-tab' /> }
-      { !windowWidth.showNavBar &&  <button className='main__nav-burger' />}
+      { !windowWidth.showNavBar &&  <button className='main__nav-burger' onClick={handleNavButton} />}
+      { !windowWidth.showNavBar &&  
+        <Navigation
+          isOpen={isNavigationOpened}
+          handleClose={handleNavigationClose}
+          handleClick={handleNavigationClick}
+        />}
     </div>
   )
 }

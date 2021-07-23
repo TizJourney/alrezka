@@ -9,12 +9,12 @@ export default function Navigation(props) {
 
   return (
     <div className={classnames(props.className, 'nav-tab')}>
-      <HashLink to='/#' className='nav-tab__link nav-tab__link_title'>
+      <HashLink smooth to='#top' className='nav-tab__link nav-tab__link_title'>
         <img className='nav-tab__logo' src={logoImage} alt='Алрезка'/>
       </HashLink>
-      <HashLink to='/#service' className='nav-tab__link'>Услуги</HashLink>
-      <HashLink to='/#equipment' className='nav-tab__link'>Оборудование</HashLink>      
-      <HashLink to='/#contacts' className='nav-tab__link'>Контакты</HashLink>
+      <HashLink smooth to='#service' className='nav-tab__link'>Услуги</HashLink>
+      <HashLink smooth to='#equipment' className='nav-tab__link'>Оборудование</HashLink>      
+      <HashLink smooth  to='#contacts' className='nav-tab__link'>Контакты</HashLink>
     </div>
   )
 }
