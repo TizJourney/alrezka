@@ -21,16 +21,26 @@ function ClientItem(props) {
 
 function ClientBlock(props) {
     return (
-    <li className='client-item'>
-        { Object.entries(props.data).map(([title, descriptions], i) => <ClientItem key={i} title={title} descriptions={descriptions} />)}
-    </li>
+        <div className='client-item__content-container'>
+            { props.icon && <div className={classnames('clients__icon', props.icon)}/>}
+            <li className='client-item'>
+                { Object.entries(props.data).map(([title, descriptions], i) => <ClientItem key={i} title={title} descriptions={descriptions} />)}
+            </li>
+        </div>            
     )
 }
 
 export default function Clients(props) {
+    const KEY_TO_ICON = {
+        0: 'client-item__icon_factory',
+        1: 'client-item__icon_mall',
+        2: 'client-item__icon_builder',
+        3: 'client-item__icon_other',
+    }
+
     return (
         <ul className={classnames('clients', props.className)}>
-            { CLIENTS.map((clientBlock, i) => <ClientBlock key={i} data={clientBlock} />)}
+            { CLIENTS.map((clientBlock, i) => <ClientBlock icon={KEY_TO_ICON[i]} key={i} data={clientBlock} />)}
         </ul>
     )
 }

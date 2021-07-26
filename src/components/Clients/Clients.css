@@ -15,6 +15,11 @@
     margin: 10px 0 0 0;
 }
 
+.client-item__content-container {
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+
 .client-item__description-block {
     margin: 0;
     padding: 0;
@@ -33,9 +38,35 @@
     padding: 0 0 0 20px;
 }
 
+.clients__icon {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.client-item__icon_factory {
+    background-image: url('../../images/factory-icon.svg');
+}
+
+.client-item__icon_mall {
+    background-image: url('../../images/mall-icon.svg');
+}
+
+
+.client-item__icon_builder {
+    background-image: url('../../images/builder-icon.svg');
+}
+
+.client-item__icon_other {
+    background-image: url('../../images/other-builder-icon.svg');
+}
+
 @media screen and (max-width: 767px) {
     .clients {
         grid-template-columns: auto;
         gap: 20px;
     }
+
 }
