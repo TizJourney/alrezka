@@ -16,7 +16,7 @@ import WindowWidthSettings from '../WindowWidthSettings/WindowWidthSettings';
 
 import imageLogo from '../../images/white-logo.png';
 
-import { ADVANTAGES } from '../../utils/context';
+import { ADVANTAGES, SERVICES } from '../../utils/context';
 
 function MainPage(props) {
   return (
@@ -62,9 +62,7 @@ export default function Main(props) {
       <div className='main main_service' id='service'>
         <MainPage className='main_content main-page main-page_service'>
           <MainTitle className='main-page__item main-page__item_service main-content__title_black' title='Услуги' />
-          <ContentItem title='Алмазное бурение' text='Одним из направлений деятельности компании «Алрезка» является сверление отверстий с помощью современных технологий. Это позволяет получить отверстия ровной формы различного диаметра в строительных конструкциях из железобетонных плит, кирпича, камня и прочих материалов.' />
-          <ContentItem title='Cоздание проемов в стенах' text='Компания «Алрезка» оказывает услуги по распилу конструкций из бетона, кирпича, камня любой толщины. Работы по алмазной резке перекрытий выполняются с применением современного оборудования, позволяющего свести время исполнения к минимуму и добиться высочайшей точности.' />
-          <ContentItem title='Демонтаж несущих конструкций и стен' text='Компания «Алрезка» оказывает услуги по демонтажу железобетона. Для этого используются такие профессиональные алмазные инструменты, как швонарезчики, стенорезные установки, канатные машины, ручной отрезной инструмент и др. Работы по демонтажу перекрытий и других конструкций из железобетона проводятся бригадой опытных специалистов.' />
+          { SERVICES.map((entry) => <ContentItem title='' text={entry} />) }
         </MainPage>
       </div>
 
@@ -72,8 +70,8 @@ export default function Main(props) {
       <div className='main main_advantages' id='advantages'>
         <MainPage className='main_content main-page main-page_advantages'>
           <MainTitle className='main-page__item main-page__item_advantages' title='Преимущества'/>
-          { ADVANTAGES.map((entry) => <ContentItem theme='white' title={entry} text='' />) }
-        </MainPage>
+          { ADVANTAGES.map((entry) => <ContentItem theme='white' title='' text={entry} />) }
+        </MainPage> 
       </div>
 
       <div className='main main_contacts' id='contacts'>
