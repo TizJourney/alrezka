@@ -1,7 +1,41 @@
+.clients {
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 50px;
+}
+
+.client-item {
+    margin: 20px 20px;
+}
+
+.client-item__item {
+    margin: 10px 0 0 0;
+}
+
+.client-item__description-block {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
 .client-item__title {
     color:white;
+    margin: 0;
+    padding: 0;
 }
 
 .client-item__description-item {
     color: white;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .clients {
+        grid-template-columns: auto;
+        gap: 20px;
+    }
 }

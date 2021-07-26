@@ -15,7 +15,6 @@ function ClientItem(props) {
                     {props.descriptions.map((item) => <li className='client-item__description-item'>{item}</li>)}
                 </ul>
             }
-        )
         </div>
     )
 }
@@ -30,10 +29,8 @@ function ClientBlock(props) {
 
 export default function Clients(props) {
     return (
-        <div className={classnames('clients', props.className)}>
-            <ul className='clients__grid-container'>
-                { CLIENTS.map((clientBlock, i) => <ClientBlock key={i} data={clientBlock} />)}
-            </ul>
-        </div>
+        <ul className={classnames('clients', props.className)}>
+            { CLIENTS.map((clientBlock, i) => <ClientBlock key={i} data={clientBlock} />)}
+        </ul>
     )
 }
