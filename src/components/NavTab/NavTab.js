@@ -13,7 +13,7 @@ export default function Navigation(props) {
         <img className='nav-tab__logo' src={logoImage} alt='Алрезка'/>
       </HashLink>
       <HashLink smooth to='#service' className='nav-tab__link'>Услуги</HashLink>
-      <HashLink smooth to='#equipment' className='nav-tab__link'>Оборудование</HashLink>      
+      <HashLink smooth to='#advantages' className='nav-tab__link'>Преимущества</HashLink>      
       <HashLink smooth  to='#contacts' className='nav-tab__link'>Контакты</HashLink>
     </div>
   )

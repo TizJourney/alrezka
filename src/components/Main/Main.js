@@ -16,6 +16,8 @@ import WindowWidthSettings from '../WindowWidthSettings/WindowWidthSettings';
 
 import imageLogo from '../../images/white-logo.png';
 
+import { ADVANTAGES } from '../../utils/context';
+
 function MainPage(props) {
   return (
     <div id={props.id} className={classnames('main-content__page', props.className)}>
@@ -67,11 +69,10 @@ export default function Main(props) {
       </div>
 
 
-      <div className='main main_equipment' id='equipment'>
-        <MainPage className='main_content main-page main-page_equipment'>
-          <MainTitle className='main-page__item main-page__item_equipment' title='Оборудование'/>
-          <ContentItem theme='white' title='Канатная алмазная резка' text='Технология канатной алмазной резки – уникальный способ демонтажа бетонных конструкций, с помощью которого можно вырезать проем в стене или разобрать межэтажные перекрытия.' />
-          <ContentItem theme='white' title='Cтенорезная машина' text='Опытными специалистами будет осуществлена резка стенорезной машиной – одним из лучших видов оборудования, предназначенного для работы с кирпичом, железобетоном, натуральным камнем и другими строительными материалами повышенной прочности. В процессе эксплуатации таких устройств не возникает много пыли, края разрезаемого материала получаются настолько ровными, что им обычно не требуется дальнейшая обработка.' />
+      <div className='main main_advantages' id='advantages'>
+        <MainPage className='main_content main-page main-page_advantages'>
+          <MainTitle className='main-page__item main-page__item_advantages' title='Преимущества'/>
+          { ADVANTAGES.map((entry) => <ContentItem theme='white' title={entry} text='' />) }
         </MainPage>
       </div>
 

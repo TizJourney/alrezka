@@ -17,7 +17,7 @@ export default function Navigation(props) {
             <img className='navigation__logo' src={imageLogo} alt='Лого Алрезки' />
           </HashLink>
           <HashLink smooth to='#service' className='nav-tab__link nav-tab__link_title' onClick={() => {props.handleClick()}} >Услуги</HashLink>
-          <HashLink smooth to='#equipment' className='nav-tab__link nav-tab__link_title' onClick={() => {props.handleClick()}} >Оборудование</HashLink>
+          <HashLink smooth to='#advantages' className='nav-tab__link nav-tab__link_title' onClick={() => {props.handleClick()}} >Преимущества</HashLink>
           <HashLink smooth to='#contacts' className='nav-tab__link nav-tab__link_title' onClick={() => {props.handleClick()}} >Контакты</HashLink>
         </nav>
       </div>
