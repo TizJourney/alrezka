@@ -4,7 +4,7 @@ import React from 'react';
 
 import classnames from 'classnames';
 
-import { CONTACTS, FEEDBACK } from '../../utils/context';
+import { CONTACTS, FEEDBACK, ADDRESS } from '../../utils/context';
 import yandexLogo from '../../images/yandex-logo.png';
 import googleLogo from '../../images/google-logo.png';
 
@@ -15,10 +15,7 @@ export default function Contacts(props) {
             <a className='contacts__item contacts__item_link' href={`mailto:${CONTACTS.email}`}>E-mail: {CONTACTS.email}</a>
             <h3 className='contacts__feedback-title'>Реквизиты организации:</h3>
             <ul className='contacts__list'>
-                <li className='contacts__list-item'>ООО «Алрезка»</li>
-                <li className='contacts__list-item'>Юридический адрес 194292 г. Санкт-Петербург, 2-й Верхний пер., д. 5, лит. И, пом. 4-Н</li>
-                <li className='contacts__list-item'>ИНН 7802767981</li>
-                <li className='contacts__list-item'>ОГРН 1117847456528</li>
+                { ADDRESS.map((entry) => <li className='contacts__list-item'>{entry}</li>) }
             </ul>
             <h3 className='contacts__feedback-title'>Оставить отзыв:</h3>
             <div className='contacts__feedback-block'>

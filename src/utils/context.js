@@ -10,7 +10,7 @@ export const CONTACTS = {
     email: 'zakaz@alrezka.ru'
 }
 
-export const ADRESS = [
+export const ADDRESS = [
     'ООО «Алрезка»',
     '194292, РФ, г.Санкт-Петербург, 2-й Верхний пер., д. 5, лит. И, пом. 4-Н',
     'ИНН/КПП  7802633184 / 780201001',
