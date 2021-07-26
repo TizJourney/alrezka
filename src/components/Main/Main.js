@@ -11,12 +11,13 @@ import NavTab from '../NavTab/NavTab';
 import Contacts from '../Contacts/Contacts';
 import ContentItem from '../ContentItem/ContentItem';
 import Navigation from '../Navigation/Navigation';
+import Clients from '../Clients/Clients';
 
 import WindowWidthSettings from '../WindowWidthSettings/WindowWidthSettings';
 
 import imageLogo from '../../images/white-logo.png';
 
-import { ADVANTAGES, SERVICES, FACTS, CLIENTS } from '../../utils/context';
+import { ADVANTAGES, SERVICES, FACTS } from '../../utils/context';
 
 function MainPage(props) {
   return (
@@ -69,7 +70,7 @@ export default function Main(props) {
       <div className='main main_clients' id='clients'>
         <MainPage className='main_content main-page main-page_clients'>
           <MainTitle className='main-page__item main-page__item_clients' title='Клиенты'/>
-          { Object.entries(CLIENTS).map(([key, value], i) => <ContentItem key={i} theme='white' title={key} text='' />)}
+          <Clients />
         </MainPage> 
       </div>
 
