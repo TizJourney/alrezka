@@ -12,6 +12,8 @@ export default function Navigation(props) {
       <HashLink smooth to='#top' className='nav-tab__link nav-tab__link_title'>
         <img className='nav-tab__logo' src={logoImage} alt='Алрезка'/>
       </HashLink>
+      <HashLink smooth to='#facts' className='nav-tab__link'>Факты</HashLink>
+      <HashLink smooth to='#clients' className='nav-tab__link'>Клиенты</HashLink>
       <HashLink smooth to='#service' className='nav-tab__link'>Услуги</HashLink>
       <HashLink smooth to='#advantages' className='nav-tab__link'>Преимущества</HashLink>      
       <HashLink smooth  to='#contacts' className='nav-tab__link'>Контакты</HashLink>

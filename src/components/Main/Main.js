@@ -16,7 +16,7 @@ import WindowWidthSettings from '../WindowWidthSettings/WindowWidthSettings';
 
 import imageLogo from '../../images/white-logo.png';
 
-import { ADVANTAGES, SERVICES } from '../../utils/context';
+import { ADVANTAGES, SERVICES, FACTS, CLIENTS } from '../../utils/context';
 
 function MainPage(props) {
   return (
@@ -59,18 +59,31 @@ export default function Main(props) {
         </MainPage>
       </div>
 
-      <div className='main main_service' id='service'>
-        <MainPage className='main_content main-page main-page_service'>
-          <MainTitle className='main-page__item main-page__item_service main-content__title_black' title='Услуги' />
-          { SERVICES.map((entry) => <ContentItem title='' text={entry} />) }
+      <div className='main main_facts' id='facts'>
+        <MainPage className='main_content main-page main-page_facts'>
+          <MainTitle className='main-page__item main-page__item_facts main-content__title_black' title='Факты' />
+          { FACTS.map((entry, i) => <ContentItem key={i} title='' text={entry} />) }
         </MainPage>
       </div>
 
+      <div className='main main_clients' id='clients'>
+        <MainPage className='main_content main-page main-page_clients'>
+          <MainTitle className='main-page__item main-page__item_clients' title='Клиенты'/>
+          { Object.entries(CLIENTS).map(([key, value], i) => <ContentItem key={i} theme='white' title={key} text='' />)}
+        </MainPage> 
+      </div>
+
+      <div className='main main_service' id='service'>
+        <MainPage className='main_content main-page main-page_service'>
+          <MainTitle className='main-page__item main-page__item_service main-content__title_black' title='Услуги' />
+          { SERVICES.map((entry, i) => <ContentItem key={i} title='' text={entry} />) }
+        </MainPage>
+      </div>
 
       <div className='main main_advantages' id='advantages'>
         <MainPage className='main_content main-page main-page_advantages'>
           <MainTitle className='main-page__item main-page__item_advantages' title='Преимущества'/>
-          { ADVANTAGES.map((entry) => <ContentItem theme='white' title='' text={entry} />) }
+          { ADVANTAGES.map((entry, i) => <ContentItem key={i} theme='white' title='' text={entry} />) }
         </MainPage> 
       </div>
 

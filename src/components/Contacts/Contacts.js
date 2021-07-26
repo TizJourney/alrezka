@@ -20,7 +20,7 @@ export default function Contacts(props) {
             <h3 className='contacts__highlight-text'>Работаем по всей территории РФ</h3>
             <h3 className='contacts__feedback-title'>Реквизиты организации:</h3>
             <ul className='contacts__list'>
-                { ADDRESS.map((entry) => <li className='contacts__list-item'>{entry}</li>) }
+                { ADDRESS.map((entry, i) => <li className='contacts__list-item' key={i}>{entry}</li>) }
             </ul>
             <h3 className='contacts__feedback-title'>Оставить отзыв:</h3>
             <div className='contacts__feedback-block'>
