@@ -80,5 +80,5 @@ export const ADVANTAGES = [
 ]
 
 const VIDEO_SOURCE = "https://www.youtube.com/embed/DWyAGU1deB4?"
-export const VIDEO_URL = `${VIDEO_SOURCE}mute=1;&modestbranding=1&;showinfo=0&;autohide=1&;rel=0;`;
+export const VIDEO_URL = `${VIDEO_SOURCE}mute=1;&modestbranding=1;&showinfo=0;&autohide=1;&rel=0;`;
 
