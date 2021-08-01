@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/alrezka/static/css/main.1700a70e.chunk.css",
-    "main.js": "/alrezka/static/js/main.d04fabd3.chunk.js",
-    "main.js.map": "/alrezka/static/js/main.d04fabd3.chunk.js.map",
+    "main.js": "/alrezka/static/js/main.4b2fc64a.chunk.js",
+    "main.js.map": "/alrezka/static/js/main.4b2fc64a.chunk.js.map",
     "runtime-main.js": "/alrezka/static/js/runtime-main.180b4f57.js",
     "runtime-main.js.map": "/alrezka/static/js/runtime-main.180b4f57.js.map",
     "static/js/2.6882b76f.chunk.js": "/alrezka/static/js/2.6882b76f.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.180b4f57.js",
     "static/js/2.6882b76f.chunk.js",
     "static/css/main.1700a70e.chunk.css",
-    "static/js/main.d04fabd3.chunk.js"
+    "static/js/main.4b2fc64a.chunk.js"
   ]
 }
