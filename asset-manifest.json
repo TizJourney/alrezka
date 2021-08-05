@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/alrezka/static/css/main.1700a70e.chunk.css",
-    "main.js": "/alrezka/static/js/main.fe9e8079.chunk.js",
-    "main.js.map": "/alrezka/static/js/main.fe9e8079.chunk.js.map",
+    "main.css": "/alrezka/static/css/main.fe8fbb89.chunk.css",
+    "main.js": "/alrezka/static/js/main.05643949.chunk.js",
+    "main.js.map": "/alrezka/static/js/main.05643949.chunk.js.map",
     "runtime-main.js": "/alrezka/static/js/runtime-main.180b4f57.js",
     "runtime-main.js.map": "/alrezka/static/js/runtime-main.180b4f57.js.map",
     "static/js/2.6882b76f.chunk.js": "/alrezka/static/js/2.6882b76f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.40b01ce6.chunk.js": "/alrezka/static/js/3.40b01ce6.chunk.js",
     "static/js/3.40b01ce6.chunk.js.map": "/alrezka/static/js/3.40b01ce6.chunk.js.map",
     "index.html": "/alrezka/index.html",
-    "static/css/main.1700a70e.chunk.css.map": "/alrezka/static/css/main.1700a70e.chunk.css.map",
+    "static/css/main.fe8fbb89.chunk.css.map": "/alrezka/static/css/main.fe8fbb89.chunk.css.map",
     "static/js/2.6882b76f.chunk.js.LICENSE.txt": "/alrezka/static/js/2.6882b76f.chunk.js.LICENSE.txt",
     "static/media/Main.css": "/alrezka/static/media/work-sample-4.8893ae5d.JPG",
     "static/media/index.css": "/alrezka/static/media/Inter-Regular.fc49d131.woff",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.180b4f57.js",
     "static/js/2.6882b76f.chunk.js",
-    "static/css/main.1700a70e.chunk.css",
-    "static/js/main.fe9e8079.chunk.js"
+    "static/css/main.fe8fbb89.chunk.css",
+    "static/js/main.05643949.chunk.js"
   ]
 }
