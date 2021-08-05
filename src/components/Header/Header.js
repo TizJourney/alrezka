@@ -9,7 +9,7 @@ import { CONTACTS } from '../../utils/context'
 export default function Header(props) {
   return (
     <header className={classnames(props.className, 'header')}>
-      <p className='header__text'>Санкт-Петербург</p>      
+      <a className='header__link' href={`mailto:${CONTACTS.email}`}>{CONTACTS.email}</a>
       <nav className='header__links-block header__contacts'>
         <a className='header__link' href={`tel:+${CONTACTS.telRaw}`} >{CONTACTS.tel}</a>
         <a className='header__link'  target='_blank' rel='noreferrer' href={`https://wa.me/${CONTACTS.telRaw}`} ><img className='header__whatsapp-icon' src={whatsappIcon} alt='whatsApp'/></a>
