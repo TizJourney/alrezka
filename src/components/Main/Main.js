@@ -90,7 +90,7 @@ export default function Main(props) {
 
       <div className='main main_contacts' id='contacts'>
         <MainPage className='main_content main-page main-page_contacts'>
-          <MainTitle className='main-page__item main-page__item_contacts' title='Контакты' />
+          <MainTitle className='main-page__item main-page__item_contacts main-content__title_black' title='Контакты' />
           <Contacts />
         </MainPage>
       </div>
