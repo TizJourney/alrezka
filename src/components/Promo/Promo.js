@@ -10,7 +10,9 @@ export default function Promo(props) {
   return (
     <div className={classnames('promo', props.className)}>
       <p className="promo__text">{PROMO}</p>
-      <iframe className="promo__video" title="Алрезка: видео" id="ytplayer" type="text/html" src={VIDEO_URL} frameborder="0" allowfullscreen />
+      <div className="promo__video-wrapper">
+        <iframe className="promo__video" title="Алрезка: видео" id="ytplayer" type="text/html" src={VIDEO_URL} frameBorder="0" allowFullScreen />
+      </div>
     </div>
   )
 }
