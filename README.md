@@ -4,4 +4,5 @@
 * `npm start`
 
 ### Деплой сайта
-* `npm run deploy`
+* Сделать сборку проекта: `npm run build`
+* Выкатить сборку в прод: `npm run deploy`
