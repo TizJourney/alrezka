@@ -73,7 +73,6 @@
   grid-template-rows: 150px 1fr;
   justify-items: center;
   position: relative;
-  min-height: 100%;
   z-index: 3;
 }
 
