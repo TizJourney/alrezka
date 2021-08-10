@@ -1,3 +1,7 @@
+.content-item {
+    display: block;
+}
+
 .content-item_white {
     color: white;
 }

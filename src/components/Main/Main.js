@@ -53,7 +53,7 @@ export default function Main(props) {
   return (
     <div>
       <div className='main main_promo'>
-        <MainPage className='main_content main-page main-page_promo'>
+        <MainPage className='main__content main-page main-page_promo'>
           <Header className='main-page__item main-page__item_header' />
           { !windowWidth.showNavBar &&  <img className='main__title-image' src={imageLogo} alt='Лого Алрезки' /> }                    
           <Promo className='main-page__item main-page__item_promo' />
@@ -61,28 +61,28 @@ export default function Main(props) {
       </div>
 
       <div className='main main_facts' id='facts'>
-        <MainPage className='main_content main-page main-page_facts'>
+        <MainPage className='main__content main-page main-page_facts'>
           <MainTitle className='main-page__item main-page__item_facts main-content__title_black' title='Факты' />
           { FACTS.map((entry, i) => <ContentItem key={i} title='' text={entry} />) }
         </MainPage>
       </div>
 
       <div className='main main_clients' id='clients'>
-        <MainPage className='main_content main-page main-page_clients'>
+        <MainPage className='main__content main-page main-page_clients'>
           <MainTitle className='main-page__item main-page__item_clients' title='Клиенты'/>
           <Clients />
         </MainPage> 
       </div>
 
       <div className='main main_service' id='service'>
-        <MainPage className='main_content main-page main-page_service'>
+        <MainPage className='main__content main-page main-page_service'>
           <MainTitle className='main-page__item main-page__item_service main-content__title_black' title='Услуги' />
           { SERVICES.map((entry, i) => <ContentItem key={i} title='' text={entry} />) }
         </MainPage>
       </div>
 
       <div className='main main_advantages' id='advantages'>
-        <MainPage className='main_content main-page main-page_advantages'>
+        <MainPage className='main__content main-page main-page_advantages'>
           <MainTitle className='main-page__item main-page__item_advantages' title='Преимущества'/>
           { ADVANTAGES.map((entry, i) => <ContentItem key={i} theme='white' title='' text={entry} />) }
         </MainPage> 
