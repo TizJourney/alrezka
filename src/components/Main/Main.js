@@ -63,7 +63,12 @@ export default function Main(props) {
       <div className='main main_facts' id='facts'>
         <MainPage className='main__content main-page main-page_facts'>
           <MainTitle className='main-page__item main-page__item_facts main-content__title_black' title='Факты' />
-          { FACTS.map((entry, i) => <ContentItem key={i} title='' text={entry} />) }
+          <ContentItem title='' text={FACTS[0]} />
+          <ContentItem title='' text={FACTS[1]} />
+          <ContentItem title='' text={FACTS[2]} />
+          <ContentItem title='' text={FACTS[3]} />
+          <ContentItem title='' text={FACTS[4]} />
+          <ContentItem title='' text={FACTS[5]} />
         </MainPage>
       </div>
 
@@ -77,7 +82,9 @@ export default function Main(props) {
       <div className='main main_service' id='service'>
         <MainPage className='main__content main-page main-page_service'>
           <MainTitle className='main-page__item main-page__item_service main-content__title_black' title='Услуги' />
-          { SERVICES.map((entry, i) => <ContentItem key={i} title='' text={entry} />) }
+          <ContentItem title='' text={SERVICES[0]} />
+          <ContentItem title='' text={SERVICES[1]} />
+          <ContentItem title='' text={SERVICES[2]} />
         </MainPage>
       </div>
 
