@@ -55,7 +55,7 @@ export default function Main(props) {
       <div className='main main_promo'>
         <MainPage className='main__content main-page main-page_promo'>
           <Header className='main-page__item main-page__item_header' />
-          { !windowWidth.showNavBar &&  <img className='main__title-image' src={imageLogo} alt='Лого Алрезки' /> }                    
+          <img className='main__title-image' src={imageLogo} alt='Лого Алрезки' />               
           <Promo className='main-page__item main-page__item_promo' />
         </MainPage>
       </div>
