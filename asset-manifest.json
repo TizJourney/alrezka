@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e549e5d.css",
-    "main.js": "/static/js/main.1bd26e6b.js",
+    "main.css": "/static/css/main.69b10e41.css",
+    "main.js": "/static/js/main.d84eddfd.js",
     "static/js/787.f2bcd82f.chunk.js": "/static/js/787.f2bcd82f.chunk.js",
     "static/media/9.jpg": "/static/media/9.42abbb90a0c71e6fd182.jpg",
     "static/media/work-sample-3.JPG": "/static/media/work-sample-3.0c3d0f55d07c12cf79bc.JPG",
@@ -15,7 +15,6 @@
     "static/media/google-logo.png": "/static/media/google-logo.2eb1d72b629a4c11b5dc.png",
     "static/media/yandex-logo.png": "/static/media/yandex-logo.9b86e7905db746df4735.png",
     "static/media/white-logo.png": "/static/media/white-logo.38cc6fde32cb57ec4dea.png",
-    "static/media/whatsapp-icon-logo.svg": "/static/media/whatsapp-icon-logo.973a7e77f1662d32198f8505db6f2a02.svg",
     "static/media/other-builder-icon.svg": "/static/media/other-builder-icon.43c13ee6127131a5d45e.svg",
     "static/media/factory-icon.svg": "/static/media/factory-icon.382acf16d8e1bd4b41c0.svg",
     "static/media/mall-icon.svg": "/static/media/mall-icon.875d4eeb0326118a298a.svg",
@@ -23,12 +22,12 @@
     "index.html": "/index.html",
     "static/media/close-button.svg": "/static/media/close-button.b00d04750117662a5ee4.svg",
     "static/media/burger-icon.svg": "/static/media/burger-icon.c56f0df65a5db2461829.svg",
-    "main.4e549e5d.css.map": "/static/css/main.4e549e5d.css.map",
-    "main.1bd26e6b.js.map": "/static/js/main.1bd26e6b.js.map",
+    "main.69b10e41.css.map": "/static/css/main.69b10e41.css.map",
+    "main.d84eddfd.js.map": "/static/js/main.d84eddfd.js.map",
     "787.f2bcd82f.chunk.js.map": "/static/js/787.f2bcd82f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e549e5d.css",
-    "static/js/main.1bd26e6b.js"
+    "static/css/main.69b10e41.css",
+    "static/js/main.d84eddfd.js"
   ]
 }
