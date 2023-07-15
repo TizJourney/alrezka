@@ -2,8 +2,6 @@ import './Header.css';
 
 import classnames from 'classnames';
 
-import whatsappIcon from '../../images/whatsapp-icon-logo.svg';
-
 import { CONTACTS } from '../../utils/context'
 
 export default function Header(props) {
