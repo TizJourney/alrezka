@@ -16,6 +16,11 @@
   height: 38px;
 }
 
+.header__contacts {
+  display: flex;
+  flex-direction: column;
+}
+
 .header__links-block {
   margin-top: 5 px;
   display: flex;
