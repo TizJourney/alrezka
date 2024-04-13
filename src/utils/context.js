@@ -1,10 +1,13 @@
 
 const tel = '+7 (812) 309-27-80';
+const telSecond = '+7 (820) 249-05-19';
 const telSupport = '+7 (964) 394-41-57';
 
 export const CONTACTS = {
     tel: tel,
+    telSecond: telSecond,
     telRaw: tel.replace(/[^0-9]/g, ''),
+    telSecondRaw: telSecond.replace(/[^0-9]/g, ''),
     telSupport: telSupport,
     telSupportRaw: telSupport.replace(/[^0-9]/g, ''),
     email: 'zakaz@alrezka.ru'

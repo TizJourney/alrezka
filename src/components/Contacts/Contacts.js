@@ -12,6 +12,7 @@ export default function Contacts(props) {
     return (
         <div className={classnames('contacts', props.className)}>
             <a className='contacts__item contacts__item_link' href={`tel:+${CONTACTS.telRaw}`}>Телефон: {CONTACTS.tel}</a>
+            <a className='contacts__item contacts__item_link' href={`tel:+${CONTACTS.telSecondRaw}`}>Дополнительный телефон: {CONTACTS.telSecond}</a>
             <a className='contacts__item contacts__item_link' href={`mailto:${CONTACTS.email}`}>E-mail: {CONTACTS.email}</a>
             <h3 className='contacts__highlight-text'>Работаем по всей территории РФ</h3>
             <h3 className='contacts__feedback-title'>Реквизиты организации:</h3>
